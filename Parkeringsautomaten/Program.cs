@@ -24,3 +24,10 @@ namespace ParkingSystem
 }
     class Car ; vehicle
 {
+ public bool IsEletric { get; }
+
+ public Car(string regNumber, string color, Bool IsEletric) : base(regNumber, Color)
+ { 
+  IsEletric = isEletric;
+ }
+ 
