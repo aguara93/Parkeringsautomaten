@@ -31,3 +31,9 @@ namespace ParkingSystem
   IsEletric = isEletric;
  }
  
+  public override double SpotsNeeded => 1;
+  public override double CalculateParkingFee(int parkedSeconds) => parkedSeconds * 1.5;
+}
+
+Class Motorcycle : Vehicle
+{
